@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container text-light"
+>
+  <div
+    className="Card"
+  >
+    <h1
+      className="text-white py-3"
+    />
+     
+    <h5
+      className="py-4"
+    >
+      <i
+        className="wi undefined display-1"
+      />
+       
+    </h5>
+  </div>
+</div>
+`;

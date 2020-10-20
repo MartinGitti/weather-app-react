@@ -1,0 +1,52 @@
+/* Style Steet: */
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.App-image {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-container {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  padding: 100px;
+}
+
+/*Weather Styling:*/
+.container input,
+.container ::-webkit-input-placeholder {
+  color: white !important;
+}
+.container input:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid tomato;
+  box-shadow: none !important;
+}
+
+/*Form Styling:*/
+form {
+  margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+  color: white;
+}
+
+/* Gif Image: */
+.tornadoGif {
+  padding: 30px;
+}
